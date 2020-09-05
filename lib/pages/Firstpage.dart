@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fruitsimages/fruits/second.dart';
-class First extends StatelessWidget {
+import 'package:flutter_fruitsimages/pages/Secondpage.dart';
+class Firzt extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Center(
         child: GestureDetector(
-          onTap:(){ Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Fruits()));},
+          onTap:(){ Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Fruitz()));},
           child: Container(
             decoration: BoxDecoration(
                 color: Color(0xffef629f),
-              borderRadius: BorderRadius.circular(10.0)
+                borderRadius: BorderRadius.circular(10.0)
             ),
             height: 50,
             width: 150,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fruitsimages/FIRST.dart';
-import 'package:flutter_fruitsimages/fruits/second.dart';
+import 'package:flutter_fruitsimages/pages/Firstpage.dart';
 
 void main(){
   runApp(MyApp());
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
 //          ),
 //          title: Center(child: Text("FRUITS")),
 //        ),
-        body: First(),
+        body: Firzt(),
       ),
     );
   }
